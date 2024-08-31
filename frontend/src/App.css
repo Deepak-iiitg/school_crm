@@ -1,0 +1,42 @@
+*{
+  margin:0;
+}
+ul li{
+  list-style-type: none;
+  display: inline;
+  justify-items: auto;
+}
+.navbar{
+  width:100%;
+  background-color: rgb(13, 13, 13);
+  height:40px;
+  vertical-align: middle;
+  display: flex;
+  padding-top: 20px;
+  font-size: 20px;
+  margin:0;
+}
+.left-nav{
+  float: left;
+  width:50%;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.right-nav{
+  float: right;
+  width:50%;
+  color:white;
+  text-align: center;
+}
+.right-nav span{
+  display: flexbox;
+  text-align: justify;
+  flex-wrap: wrap;
+  margin:20px
+}
+
+.chart{
+  width:60px,
+}
